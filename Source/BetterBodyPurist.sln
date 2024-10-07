@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterBodyPurest", "BetterBodyPurest.csproj", "{204BDDF9-FBA0-4C2A-B8F9-4523E9B3EF25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterBodyPurist", "BetterBodyPurist.csproj", "{204BDDF9-FBA0-4C2A-B8F9-4523E9B3EF25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

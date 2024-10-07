@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Better Body Purest</name>
+  <name>Better Body Purist</name>
   <author>Zig158</author>
-  <packageId>Zig158.BetterBodyPurest</packageId>
+  <packageId>Zig158.BetterBodyPurist</packageId>
   <supportedVersions>
     <li>1.5</li>
   </supportedVersions>
 
   <description>
-    Modifies the Body Purest trait to not get negative thoughts when genes are implanted.
+    Modifies the Body Purist trait to not get negative thoughts when genes are implanted.
   </description>
 
   <modDependencies>

@@ -8,8 +8,8 @@
         <ProjectGuid>{204BDDF9-FBA0-4C2A-B8F9-4523E9B3EF25}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Zig158.BetterBodyPurest</RootNamespace>
-        <AssemblyName>Zig158.BetterBodyPurest</AssemblyName>
+        <RootNamespace>Zig158.BetterBodyPurist</RootNamespace>
+        <AssemblyName>Zig158.BetterBodyPurist</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -48,8 +48,10 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="BbpThoughtWorkerHasAddedBodyPart.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
-        <Compile Include="BetterBodyPurest.cs" />
+        <Compile Include="BbpThoughtWorkerBodyPuristDisgust.cs" />
+        <Compile Include="BetterBodyPurist.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

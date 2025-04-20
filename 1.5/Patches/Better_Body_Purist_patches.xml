@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Infections: Malaria -->
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>/Defs/PreceptDef[defName="IdeoRole_MedicalSpecialist"]/grantedAbilities</xpath>
+		<value>
+			<li>FleshHealing</li>
+		</value>
+	</Operation>
+</Patch>

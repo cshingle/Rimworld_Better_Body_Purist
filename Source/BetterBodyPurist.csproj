@@ -50,6 +50,8 @@
     <ItemGroup>
         <Compile Include="BbpFleshHealing.cs" />
         <Compile Include="BbpThoughtWorkerHasAddedBodyPart.cs" />
+        <Compile Include="BbpThoughtWorker_Precept_HasProsthetic.cs" />
+        <Compile Include="BbpThoughtWorker_Precept_HasProsthetic_Social.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="BbpThoughtWorkerBodyPuristDisgust.cs" />
         <Compile Include="BetterBodyPurist.cs" />

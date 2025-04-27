@@ -13,8 +13,6 @@ namespace Zig158.BetterBodyPurist
 
     public class CompAbilityEffect_FleshHealing : CompAbilityEffect
     {
-        public CompProperties_FleshHealing Props => (CompProperties_FleshHealing)this.props;
-        
         public override bool Valid(LocalTargetInfo target, bool throwMessages = false)
         {
             Pawn pawn = target.Pawn;

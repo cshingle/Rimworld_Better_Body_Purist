@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="AbilityTouchBase">
+    <defName>FleshHealing</defName>
+    <label>flesh healing</label>
+    <description>Heals a single health condition.</description>
+    <groupDef>MultiRole</groupDef>
+    <iconPath>UI/Abilities/PreachHealth</iconPath>
+    <warmupMoteSocialSymbol>UI/Abilities/PreachHealth</warmupMoteSocialSymbol>
+<!--    <jobDef>CastAbilityOnThingMelee</jobDef>-->
+    <stunTargetWhileCasting>True</stunTargetWhileCasting>
+    <showPsycastEffects>False</showPsycastEffects>
+    <sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <showWhenDrafted>false</showWhenDrafted>
+    <warmupSound>ImmunityDrive_Resolve</warmupSound>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <comps>
+      <li Class="Zig158.BetterBodyPurist.CompProperties_FleshHealing" />
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <drawAimPie>false</drawAimPie>
+      <range>-1</range>
+      <warmupTime>1.5</warmupTime>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetHumans>True</canTargetHumans>
+        <canTargetAnimals>True</canTargetAnimals>
+        <canTargetMechs>false</canTargetMechs>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+</Defs>
